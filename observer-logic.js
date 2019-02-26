@@ -39,7 +39,6 @@ class Observer {
     }
 
     reaction() {
-       
         console.log(`reaction ${this.id} observer: ${this.messageReaction} `);
     }
 }
