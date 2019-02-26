@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Observer</title>
+</head>
+
+<body>
+
+    <h3 style="margin-left: auto;margin-right: auto; width:80vw;">Observer </h3>
+    <hr style="color:rgba(0, 0, 0, 0.500);">
+    <div style="margin-left: auto;margin-right: auto; width:80vw;">
+        <h4 style="margin-left: auto;margin-right: auto; width:80vw;">Executive part of the code</h4>
+        <textarea name="" readonly id="" cols="30" rows="100" style=" border:none; width:100%;  height:150px; background: white; color:black">
+let observable1 = new Observable
+
+let observer1 = new Observer("wow!")
+let observer2 = new Observer("not bad")
+
+observable1.addObserver(observer1)
+observable1.addObserver(observer2)
+
+observable1.makeMove()
+    </textarea>
+        <hr>
+        <h4 style="margin-left: auto;margin-right: auto; width:80vw;">Output. </h4>
+        You can check out result in the console.
+        <br>
+        <span style="color:green">
+            // there are additional comments in the file   <a href="https://github.com/Nmroth42/PubSub/blob/master/pubsub-logic.js"> pubsub-logic.js  </a>
+
+        </span>
+      
+    </div>
+    <script type="text/javascript" src="observer-logic.js"></script>
+</body>
+
+</html>
