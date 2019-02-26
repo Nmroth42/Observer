@@ -29,7 +29,6 @@ class Observable {
     makeMove() {
         console.log("i'm moving forward")
         this.notify()
-
     }
 }
 
