@@ -39,7 +39,7 @@ class Observer {
     }
 
     reaction() {
-        "reaction: " + this.messageReaction
+       
         console.log(`reaction ${this.id} observer: ${this.messageReaction} `);
     }
 }
