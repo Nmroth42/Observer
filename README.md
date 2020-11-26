@@ -4,9 +4,9 @@
 
 <a href="https://imgflip.com/gif/4ny92n"><img src="https://i.imgflip.com/4ny92n.gif"></a>
 
-Run
+### Run
 + `python manage.py runserver_plus --cert-file /tmp/cert`
 
-Tests
+### Tests
 + `coverage run  --source='.' manage.py test places`
 + `coveralls`
