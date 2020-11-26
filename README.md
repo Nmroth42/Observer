@@ -6,6 +6,7 @@
 
 Run
 + python manage.py runserver_plus --cert-file /tmp/cert
+
 Tests
 + coverage run  --source='.' manage.py test places
 + coveralls
