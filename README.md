@@ -4,6 +4,8 @@
 
 <a href="https://imgflip.com/gif/4ny92n"><img src="https://i.imgflip.com/4ny92n.gif"></a>
 
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-+ Sub-lists are made by indenting 2 spaces:
+Run
++ python manage.py runserver_plus --cert-file /tmp/cert
+Tests
++ coverage run  --source='.' manage.py test places
++ coveralls
